@@ -1,0 +1,1 @@
+curl -XPUT http://localhost:8000/items/1 -H "Content-Type: application/json" -d '{"name": "item1"}'
