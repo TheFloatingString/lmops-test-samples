@@ -1,0 +1,29 @@
+{
+  "command": "uv run main.py",
+  "output": "Hello from sql!"
+}
+{
+  "command": "uv run m1.py",
+  "output": "Hello from sql!
+[]"
+}
+{
+  "command": "uv run m2.py",
+  "output": "Hello from sql!
+[('Star Wars', 1977, 8.6), ('The Empire Strikes Back', 1980, 8.7), ('Return of the Jedi', 1983, 8.3)]"
+}
+{
+  "command": "uv run m3.py",
+  "output": "Hello from sql!
+[('Return of the Jedi', 1983, 8.3)]"
+}
+{
+  "command": "uv run m4.py",
+  "output": "Hello from sql!
+[('Return of the Jedi', 1983, 9.0)]"
+}
+{
+  "command": "uv run m5.py",
+  "output": "Hello from sql!
+[('The Dark Knight', 2008, 9.0, 'Christopher Nolan'), ('Star Wars', 1977, 8.6, None), ('The Empire Strikes Back', 1980, 8.7, None), ('Return of the Jedi', 1983, 8.3, None)]"
+}
